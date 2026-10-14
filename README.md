@@ -32,14 +32,16 @@
 | 2 | `2_improve_performance.html` | 모델을 바꾸기 전에, 성능을 올리는 네 가지 방법 |
 | 3 | `3_lab_models.html` | 물고기 분류 실험실 ① 모델 바꿔 보기 |
 | 4 | `4_lab_methods.html` | 물고기 분류 실험실 ② 방법 바꿔 보기 |
+| 5 | `5_model_animation.html` | 움직이는 결정 경계 (같은 물고기 평면 위에서 여덟 모델의 경계가 학습하며 자라는 애니메이션, 초보용 코드) |
 | 정답 | `answers.html` | 교육자용 정답 (확인 문제 채점 기준, 과제 예시 답안) |
 
 ## 폴더
 
 ```
-├── index.html, answers.html, 1~4 편 .html   한국어(기본). 그림과 스크립트가 모두 파일 안에 들어 있다
+├── index.html, answers.html, 1~5 편 .html   한국어(기본). 그림과 스크립트가 모두 파일 안에 들어 있다
 ├── en/ zh/ ja/ uz/ ru/   같은 이름의 번역 페이지 (영어·중국어·일본어·우즈베크어·러시아어)
 ├── code/      Colab·주피터에서 실행하는 scikit-learn 코드 (common.py와 f0~f4.py)
+│   └── easy/  함수·들여쓰기·for 문 없는 초보용 코드 (e0~e9, 5편 페이지와 같은 코드)
 ├── data/      fish_market_x10.csv
 ├── prompts/   코드·데이터를 바꿀 때 AI 도우미에게 주는 풀버전 프롬프트
 ├── LICENSE.md
@@ -82,14 +84,16 @@ Korean is the default, and every page is also available in English, Chinese, Jap
 | 2 | `2_improve_performance.html` | Before switching models: four ways to improve performance |
 | 3 | `3_lab_models.html` | Fish Classification Lab ① Switching models |
 | 4 | `4_lab_methods.html` | Fish Classification Lab ② Switching methods |
+| 5 | `5_model_animation.html` | Moving Decision Boundaries (an animation of eight models' boundaries growing as they learn on the same fish plane, plus beginner code) |
 | Answers | `answers.html` | Answer key for educators (grading criteria for check questions, sample answers for assignments) |
 
 ## Folders
 
 ```
-├── index.html, answers.html, parts 1–4 .html   Korean (default); all images and scripts are inside each file
+├── index.html, answers.html, parts 1–5 .html   Korean (default); all images and scripts are inside each file
 ├── en/ zh/ ja/ uz/ ru/   translated pages with the same file names
 ├── code/      scikit-learn code to run in Colab / Jupyter (common.py and f0–f4.py)
+│   └── easy/  Beginner code with no functions, indentation, or for loops (e0~e9, the same code as the Part 5 page)
 ├── data/      fish_market_x10.csv
 ├── prompts/   full prompt to give an AI assistant when changing the code or data
 ├── LICENSE.md
@@ -132,14 +136,16 @@ The source is [Kaggle Fish Market](https://www.kaggle.com/datasets/vipullrathod/
 | 2 | `2_improve_performance.html` | 更换模型之前：提升性能的四种方法 |
 | 3 | `3_lab_models.html` | 鱼类分类实验室 ① 更换模型 |
 | 4 | `4_lab_methods.html` | 鱼类分类实验室 ② 更换方法 |
+| 5 | `5_model_animation.html` | 动态决策边界（在同一张鱼的平面上，八个模型的边界随训练生长的动画，入门代码） |
 | 答案 | `answers.html` | 教师用参考答案（练习题评分标准、作业示例答案） |
 
 ## 文件夹
 
 ```
-├── index.html、answers.html、第 1~4 篇 .html   韩语（默认），图片和脚本都内嵌在文件中
+├── index.html、answers.html、第 1~5 篇 .html   韩语（默认），图片和脚本都内嵌在文件中
 ├── en/ zh/ ja/ uz/ ru/   同名的翻译页面
 ├── code/      在 Colab / Jupyter 中运行的 scikit-learn 代码（common.py 与 f0~f4.py）
+│   └── easy/  没有函数、缩进和 for 循环的入门代码（e0~e9，与第 5 篇页面相同的代码）
 ├── data/      fish_market_x10.csv
 ├── prompts/   修改代码或数据时交给 AI 助手的完整提示词
 ├── LICENSE.md
@@ -182,14 +188,16 @@ The source is [Kaggle Fish Market](https://www.kaggle.com/datasets/vipullrathod/
 | 2 | `2_improve_performance.html` | モデルを変える前に、性能を上げる 4 つの方法 |
 | 3 | `3_lab_models.html` | 魚の分類実験室 ① モデルを変えてみる |
 | 4 | `4_lab_methods.html` | 魚の分類実験室 ② 方法を変えてみる |
+| 5 | `5_model_animation.html` | 動く決定境界 (同じ魚の平面上で8つのモデルの境界が学習しながら育つアニメーション、初心者用コード) |
 | 解答 | `answers.html` | 教育者向け解答（確認問題の採点基準、課題の解答例） |
 
 ## フォルダ
 
 ```
-├── index.html、answers.html、第1〜4編 .html   韓国語（基本）。画像とスクリプトはすべてファイル内に含まれる
+├── index.html、answers.html、第1〜5編 .html   韓国語（基本）。画像とスクリプトはすべてファイル内に含まれる
 ├── en/ zh/ ja/ uz/ ru/   同じファイル名の翻訳ページ
 ├── code/      Colab・Jupyter で実行する scikit-learn コード（common.py と f0〜f4.py）
+│   └── easy/  関数・インデント・for文のない初心者用コード (e0~e9、第5編のページと同じコード)
 ├── data/      fish_market_x10.csv
 ├── prompts/   コードやデータを変えるときに AI アシスタントへ渡すフル版プロンプト
 ├── LICENSE.md
@@ -232,14 +240,16 @@ Asosiy til — koreys tili; barcha sahifalarni ingliz, xitoy, yapon, o'zbek va r
 | 2 | `2_improve_performance.html` | Modelni almashtirishdan oldin: samaradorlikni oshirishning to'rt usuli |
 | 3 | `3_lab_models.html` | Baliq klassifikatsiyasi laboratoriyasi ① Modelni almashtirib ko'rish |
 | 4 | `4_lab_methods.html` | Baliq klassifikatsiyasi laboratoriyasi ② Usulni almashtirib ko'rish |
+| 5 | `5_model_animation.html` | Harakatlanuvchi qaror chegaralari (bir xil baliqlar tekisligida sakkiz modelning chegaralari o'qitish davomida o'sib borishini ko'rsatuvchi animatsiya, boshlang'ichlar uchun kod) |
 | Javoblar | `answers.html` | O'qituvchilar uchun javoblar (nazorat savollarini baholash mezonlari, topshiriqlarga namunaviy javoblar) |
 
 ## Papkalar
 
 ```
-├── index.html, answers.html, 1–4-qism .html   koreys tilida (asosiy); rasmlar va skriptlar fayl ichida
+├── index.html, answers.html, 1–5-qism .html   koreys tilida (asosiy); rasmlar va skriptlar fayl ichida
 ├── en/ zh/ ja/ uz/ ru/   xuddi shu nomdagi tarjima sahifalari
 ├── code/      Colab / Jupyter'da ishlaydigan scikit-learn kodi (common.py va f0–f4.py)
+│   └── easy/  Funksiya, chekinish va for siklisiz boshlang'ichlar uchun kod (e0~e9, 5-qism sahifasidagi kod bilan bir xil)
 ├── data/      fish_market_x10.csv
 ├── prompts/   kod yoki ma'lumotni o'zgartirishda AI yordamchiga beriladigan to'liq prompt
 ├── LICENSE.md
@@ -282,14 +292,16 @@ Manba — [Kaggle Fish Market](https://www.kaggle.com/datasets/vipullrathod/fish
 | 2 | `2_improve_performance.html` | Прежде чем менять модель: четыре способа улучшить качество |
 | 3 | `3_lab_models.html` | Лаборатория классификации рыб ① Меняем модель |
 | 4 | `4_lab_methods.html` | Лаборатория классификации рыб ② Меняем метод |
+| 5 | `5_model_animation.html` | Движущиеся границы решений (анимация того, как на одной плоскости с рыбами в ходе обучения растут границы восьми моделей; код для начинающих) |
 | Ответы | `answers.html` | Ответы для преподавателей (критерии оценки проверочных вопросов, примеры ответов к заданиям) |
 
 ## Папки
 
 ```
-├── index.html, answers.html, части 1–4 .html   корейский (основной); изображения и скрипты встроены в файлы
+├── index.html, answers.html, части 1–5 .html   корейский (основной); изображения и скрипты встроены в файлы
 ├── en/ zh/ ja/ uz/ ru/   переведённые страницы с теми же именами файлов
 ├── code/      код scikit-learn для Colab / Jupyter (common.py и f0–f4.py)
+│   └── easy/  Код для начинающих без функций, отступов и циклов for (e0~e9, тот же код, что на странице части 5)
 ├── data/      fish_market_x10.csv
 ├── prompts/   полный промпт для ИИ-помощника при изменении кода или данных
 ├── LICENSE.md

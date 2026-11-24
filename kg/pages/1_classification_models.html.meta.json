@@ -1,0 +1,33 @@
+{
+ "title": "1. 분류 모델은 모두 하나의 함수다 — Fish Market Data로 쉽게 따라하는 머신러닝",
+ "number": "01",
+ "series": "Fish Market Data로 쉽게 따라하는 머신러닝 — 초파리 연구실",
+ "date": "2026-11-24",
+ "version": "1.1",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "about": [
+  "lab:method/perceptron",
+  "lab:method/svm",
+  "lab:concept/loss",
+  "lab:method/knn",
+  "lab:method/logistic-regression"
+ ],
+ "basedOn": [],
+ "educationalLevel": "입문~중급",
+ "license": "",
+ "url": "https://adminmrobo.github.io/Fish_Market_Data_Machine_Learning/1_classification_models.html",
+ "registry": "KG_00_registry 0.3",
+ "seeAlso": "",
+ "suggestedCitation": "안상선 (2026). 1. 분류 모델은 모두 하나의 함수다 — Fish Market Data로 쉽게 따라하는 머신러닝. Fish Market Data로 쉽게 따라하는 머신러닝 — 초파리 연구실, v1.1."
+}

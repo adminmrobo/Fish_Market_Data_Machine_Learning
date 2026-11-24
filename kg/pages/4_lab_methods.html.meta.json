@@ -1,0 +1,33 @@
+{
+ "title": "4. 물고기 분류 실험실 ② 방법 바꿔 보기 — Fish Market Data로 쉽게 따라하는 머신러닝",
+ "number": "04",
+ "series": "Fish Market Data로 쉽게 따라하는 머신러닝 — 초파리 연구실",
+ "date": "2026-11-24",
+ "version": "1.1",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "about": [
+  "lab:dataset/fish-market",
+  "lab:concept/regularization",
+  "lab:concept/prompt",
+  "lab:concept/learning-rate",
+  "lab:method/gradient-descent"
+ ],
+ "basedOn": [],
+ "educationalLevel": "입문~중급",
+ "license": "",
+ "url": "https://adminmrobo.github.io/Fish_Market_Data_Machine_Learning/4_lab_methods.html",
+ "registry": "KG_00_registry 0.3",
+ "seeAlso": "",
+ "suggestedCitation": "안상선 (2026). 4. 물고기 분류 실험실 ② 방법 바꿔 보기 — Fish Market Data로 쉽게 따라하는 머신러닝. Fish Market Data로 쉽게 따라하는 머신러닝 — 초파리 연구실, v1.1."
+}
